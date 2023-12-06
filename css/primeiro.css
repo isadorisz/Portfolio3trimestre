@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(to right, #fbd3e9, #bb377d);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+h1 {
+    color: purple;
+    font-family: 'Borel', cursive;
+    font-size: 32px;
+}
+
+h2 {
+    color: mediumvioletred;
+    font-size: 24px;
+}
+
+h3 {
+    font-size: medium;
+    text-align: justify;
+}
+
+li :hover {
+    color: slateblue;
+    background-color: antiquewhite;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+.table {
+    color: #ad1d7b;
+    text-align: center;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+#fixo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
+    height: 100px;
+}

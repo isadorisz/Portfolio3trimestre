@@ -1,0 +1,120 @@
+h2 {
+    color: mistyrose;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+h3 {
+    color: mistyrose;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: medium;
+}
+
+body {
+    background-image: url('../images/backgroundcolorida.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+td :hover {
+    background-color: rgb(235, 229, 230);
+    color: palevioletred;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(255, 255, 255), rgb(128, 193, 204), rgb(255, 249, 255));
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    font-family: 'Borel', cursive;
+    font-size: 32px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    background-color: rgb(240, 158, 199);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+    padding: 10px;
+}
+
+.gatinho {
+    width: 100%;
+    height: 100%;
+
+    justify-content: center;
+    align: center;
+}
+
+li :hover {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+/*select {
+    background-color: rgb(198, 248, 231);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 1em;
+    color: #227f85;
+}
+
+textarea {
+    padding: 0.2em;
+    border: 0;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0. 0.2);
+    display: block;
+}
+
+button {
+    font-size: 1.2em;
+    background: rgb(198, 248, 231);
+    border: 0;
+    color: #227f85;
+    margin-bottom: 1em;
+    padding: 0.1em 0.6em;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 50%);
+}
+
+.avaliacao {
+    margin-left: 1em;
+}
+
+
+.iframeDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align: center;
+}*/

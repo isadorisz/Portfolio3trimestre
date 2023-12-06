@@ -1,0 +1,61 @@
+h2 {
+    color: mistyrose;
+    font-size: 24px;
+}
+
+body {
+    background-image: url('../images/backgroundcolorida.jfif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+td :hover {
+    background-color: rgb(235, 229, 230);
+    color: palevioletred;
+    font-size: larger;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    background: linear-gradient(to right, rgb(97, 99, 219), rgb(215, 66, 170), rgb(215, 66, 170), rgb(97, 99, 219));
+    -webkit-background-clip: text;
+    color: transparent;
+    width: fit-content;
+    font-family: 'Borel', cursive;
+    font-size: 32px;
+    padding-top: 15px;
+}
+
+li :hover {
+    background-color: rgb(255, 255, 255);
+    font-size: larger;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-container {
+    text-align: center;
+
+}
+
+#nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

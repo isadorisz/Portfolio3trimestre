@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, #ae9ac6, #8d3e94);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 2%;
+}
+
+h1 {
+    color: rgb(243, 189, 225);
+    font-family: 'Borel', cursive;
+    font-size: 32px;
+}
+
+h2 {
+    color: rgb(240, 157, 126);
+    font-size: 24px;
+    text-align: left;
+    margin-left: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: purple;
+    padding: 10px;
+    border-radius: 20px;
+    border-top-style: solid;
+}
+
+h3 {
+    font-size: medium;
+    text-align: justify;
+}
+
+li :hover {
+    color: rgb(186, 90, 205);
+    background-color: rgb(231, 148, 230);
+    font-size: larger;
+    align-items: center;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+
+ul li span {
+    color: rgb(240, 157, 126);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(240, 157, 126);
+}
+
+#nome {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+}
+
+#fixo {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
+    height: 100px;
+}
+
+#termos{
+    text-align: center;
+    align-items: center;
+}
